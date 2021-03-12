@@ -7,11 +7,19 @@ to be used with the Cloud [Document AI Platform][docai].
 
 ## Prerequisites 
 
-You must be familar GCP and have your own project with billing enabled.
+You must have your own GCP project with billing enabled and have working knowledge of the following products:
+
+* [Google Cloud Storage][https://cloud.google.com/storage]
+* Google Document AI [Concepts][basics] and [Processors][processors]
+* (Optional) [AI Platform Notebooks][notebooks]
+
+### Set Up Steps
 
 1. Set up your GCP project for Document AI following the [Setup Guide][set_up].
 1. Enable the 'Document AI API' in your project in the Document AI [Platform][platform].
-1. Create a Python 3 notebook in your GCP project and clone this repository.
+1. [Create][create_notebook] or use an existing instance of AI Platform Notebook with Python 3 using the default configurations.
+
+Please note Colab and Jupyter notebooks are also work with these samples. However, additional authentication will be required for service accounts.
 
 ## Instructions
 
@@ -19,7 +27,7 @@ You must be familar GCP and have your own project with billing enabled.
 2. Create your processor using the [instructions][create_processor].
 3. Copy your processor id.
 ![processorId](resources/screenshots/FormParserID.png)
-4. Find the cell where the processor variables are created, you will also need your GCP Project ID.
+4. Update the PROCESSOR_ID, PROJECT_ID and REGION variables in the notebook.
 
 ```
 PROJECT_ID = "YOUR_PROJECT_ID_HERE"
@@ -32,6 +40,11 @@ Please note, the location must match the one assigned to the processor.
 
 [notebooks]: https://cloud.google.com/ai-platform-notebooks
 [docai]: https://cloud.google.com/document-ai/docs/
+[docai_basics]: https://cloud.google.com/document-ai/docs/basics
+[processors]: https://cloud.google.com/document-ai/docs/processor-overview
 [set_up]: https://cloud.google.com/document-ai/docs/setup
 [platform]: https://console.cloud.google.com/ai/document-ai
 [create_processor]: https://cloud.google.com/document-ai/docs/create-processor
+[create_notebook]: https://cloud.google.com/ai-platform/notebooks/docs/create-new
+[gcs]: https://cloud.google.com/storage
+[basics]: https://cloud.google.com/document-ai/docs/basics
