@@ -9,7 +9,7 @@ to be used with the Cloud [Document AI Platform][docai].
 
 You must have your own GCP project with billing enabled and have working knowledge of the following products:
 
-* [Google Cloud Storage][https://cloud.google.com/storage]
+* [Google Cloud Storage][gcs]
 * Google Document AI [Concepts][basics] and [Processors][processors]
 * (Optional) [AI Platform Notebooks][notebooks]
 
