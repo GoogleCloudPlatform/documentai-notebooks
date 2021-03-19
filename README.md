@@ -3,7 +3,7 @@
 This repository contains several [Google AI Platform notebooks][notebooks] 
 to be used with the Cloud [Document AI Platform][docai].
 
-![boxes](resources/screenshots/SampleFormFields.png)
+![gif](resources/screenshots/invoice-notebook.gif)
 
 ## Prerequisites 
 
