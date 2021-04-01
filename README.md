@@ -18,6 +18,8 @@ You must have your own GCP project with billing enabled and have working knowled
 1. Set up your GCP project for Document AI following the [Setup Guide][set_up].
 1. Enable the 'Document AI API' in your project in the Document AI [Platform][platform].
 1. [Create][create_notebook] or use an existing instance of AI Platform Notebook with Python 3 using the default configurations.
+1. In the notebook, go to **Git** > **Clone a Repository** and paste the repository URL.
+1. Install the required libraries in the notebook terminal `python -m pip install -r requirements.txt`
 
 Please note Colab and Jupyter notebooks are also work with these samples. However, additional authentication will be required for service accounts.
 
