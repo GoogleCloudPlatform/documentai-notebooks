@@ -1,7 +1,11 @@
 # Document AI Notebooks 
 
 This repository contains several [Google AI Platform notebooks][notebooks] 
-to be used with the Cloud [Document AI Platform][docai].
+to be used with the Cloud [Document AI Platform][docai]. Use the general notebooks
+to process any form type or the specialized notebooks for any of the solutions such
+as [Procurement DocAI][pdai] or [Lending DocAI][ldai]. These notebooks help you get
+started with extracting data from your documents whether you're bring your own form types
+or using one of our specialized parsers for invoices, receipts, tax forms and more.
 
 ![gif](resources/screenshots/invoice-notebook.gif)
 
@@ -42,6 +46,8 @@ Please note, the location must match the one assigned to the processor.
 
 [notebooks]: https://cloud.google.com/ai-platform-notebooks
 [docai]: https://cloud.google.com/document-ai/docs/
+[pdai]: https://cloud.google.com/solutions/procurement-doc-ai/
+[ldai]: https://cloud.google.com/solutions/lending-doc-ai/
 [docai_basics]: https://cloud.google.com/document-ai/docs/basics
 [processors]: https://cloud.google.com/document-ai/docs/processor-overview
 [set_up]: https://cloud.google.com/document-ai/docs/setup
