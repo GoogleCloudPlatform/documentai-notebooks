@@ -1,6 +1,6 @@
 # Document AI Notebooks 
 
-This repository contains several [Google AI Platform notebooks][notebooks] 
+This repository contains several [Jupyter notebooks][notebooks] 
 to be used with the Cloud [Document AI Platform][docai]. Use the general notebooks
 to process any form type or the specialized notebooks for any of the solutions such
 as [Procurement DocAI][pdai] or [Lending DocAI][ldai]. These notebooks help you get
