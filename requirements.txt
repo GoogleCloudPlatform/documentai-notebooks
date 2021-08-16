@@ -1,3 +1,5 @@
-google-cloud-core==1.6.0
-google-cloud-documentai==0.3.0
-google-cloud-storage==1.36.2
+google-cloud-core==1.7.2
+google-cloud-documentai==1.0.0
+google-cloud-storage==1.41.1
+pillow==8.3.1
+pdfminer.six==20201018
