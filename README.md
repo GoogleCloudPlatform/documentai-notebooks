@@ -29,7 +29,7 @@ Please note Colab and Jupyter notebooks are also work with these samples. Howeve
 
 ## Instructions
 
-1. Identify which form type or utility you would like to run through a processor.
+1. Create a General Form Parser on the GCP Console
 2. Create your processor using the [instructions][create_processor].
 3. Copy your processor id.
 ![processorId](resources/screenshots/FormParserID.png)
